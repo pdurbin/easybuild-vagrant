@@ -129,3 +129,13 @@ http://hpcugent.github.com/easybuild/
     == Results of the build can be found in the log file /home/vagrant/.local/easybuild/software/gzip/1.4/easybuild/easybuild-gzip-1.4-20121204.162541.log
     == Build succeeded for 1 out of 1
     [vagrant@logus ~]$ 
+    [vagrant@logus ~]$ export MODULEPATH=$MODULEPATH:$HOME/.local/easybuild/modules
+    [vagrant@logus ~]$ 
+    [vagrant@logus ~]$ module avail
+
+    ------------------------ /usr/share/Modules/modulefiles ------------------------
+    dot         module-cvs  module-info modules     null        use.own
+
+    -------------------- /home/vagrant/.local/easybuild/modules --------------------
+    all/gzip/1.4  base/gzip/1.4
+    [vagrant@logus ~]$ 
